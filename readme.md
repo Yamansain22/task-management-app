@@ -8,20 +8,20 @@ The project is built using **React** for the frontend and **Flask** for the back
 ## 🚀 Features
 
 ### 🔐 Authentication
-- User registration and login
-- **JWT-based authentication** implemented in the Flask backend
-- Secure access to protected APIs
+- User registration and login using JWT
+- Secure password hashing and token-based authentication
 
 ### 📋 Boards
 - Create boards
 - View all boards created by the logged-in user
-- Delete boards
-- Automatically deletes all related tasks when a board is deleted
+- Rename boards (update board title)
+- Delete boards along with related tasks
 
 ### 📝 Tasks (Todos)
-- Add tasks to boards
+- Add tasks to a board
 - View tasks board-wise
-- Mark tasks as completed / not completed
+- Edit task titles (update)
+- Mark tasks as completed
 - Delete tasks
 
 ---
@@ -125,11 +125,6 @@ http://localhost:3000
 
 ---
 
-**Example:**
-- Email: `xyz@gmail.com`
-- Password: `12345678`
-
-
 ## 🧠 Key Highlights
 - Full-stack architecture
 - Secure authentication using JWT
@@ -149,8 +144,8 @@ http://localhost:3000
 ### Tasks
 ![Tasks](screenshots/todos.jpg)
 
-
 ---
+
 
 ## 📌 Conclusion
 This project demonstrates a complete full-stack workflow including authentication, API development, database integration, and frontend state management using modern web development practices.
